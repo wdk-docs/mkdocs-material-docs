@@ -25,6 +25,8 @@ site_author: Martin Donath
 site_description: >-
   Create a branded static site from a set of Markdown files to host the
   documentation of your Open Source or commercial project
+docs_dir: source
+site_dir: docs
 
 # Repository
 repo_name: squidfunk/mkdocs-material
@@ -151,69 +153,69 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Home: index.md
-  - Getting started:
-    - Installation: getting-started.md
-    - Creating your site: creating-your-site.md
-    - Publishing your site: publishing-your-site.md
-    - Customization: customization.md
-    - Browser support: browser-support.md
-    - Philosophy: philosophy.md
-    - Alternatives: alternatives.md
-    - License: license.md
-    - Changelog:
-      - changelog/index.md
-      - How to upgrade: upgrade.md
-  - Setup:
-    - Changing the colors: setup/changing-the-colors.md
-    - Changing the fonts: setup/changing-the-fonts.md
-    - Changing the language: setup/changing-the-language.md
-    - Changing the logo and icons: setup/changing-the-logo-and-icons.md
-    - Ensuring data privacy: setup/ensuring-data-privacy.md
-    - Setting up navigation: setup/setting-up-navigation.md
-    - Setting up site search: setup/setting-up-site-search.md
-    - Setting up site analytics: setup/setting-up-site-analytics.md
-    - Setting up social cards: setup/setting-up-social-cards.md
-    - Setting up a blog: setup/setting-up-a-blog.md
-    - Setting up tags: setup/setting-up-tags.md
-    - Setting up versioning: setup/setting-up-versioning.md
-    - Setting up the header: setup/setting-up-the-header.md
-    - Setting up the footer: setup/setting-up-the-footer.md
-    - Adding a git repository: setup/adding-a-git-repository.md
-    - Adding a comment system: setup/adding-a-comment-system.md
-    - Building for offline usage: setup/building-for-offline-usage.md
-    - Extensions:
-      - setup/extensions/index.md
-      - Python Markdown: setup/extensions/python-markdown.md
-      - Python Markdown Extensions: setup/extensions/python-markdown-extensions.md
-  - Reference:
-    - reference/index.md
-    - Admonitions: reference/admonitions.md
-    - Annotations: reference/annotations.md
-    - Buttons: reference/buttons.md
-    - Code blocks: reference/code-blocks.md
-    - Content tabs: reference/content-tabs.md
-    - Data tables: reference/data-tables.md
-    - Diagrams: reference/diagrams.md
-    - Footnotes: reference/footnotes.md
-    - Formatting: reference/formatting.md
-    - Grids: reference/grids.md
-    - Icons, Emojis: reference/icons-emojis.md
-    - Images: reference/images.md
-    - Lists: reference/lists.md
-    - MathJax: reference/mathjax.md
-    - Tooltips: reference/tooltips.md
+  - 主页: index.md
+  - 入门:
+      - 安装: getting-started.md
+      - 构建你的站点: creating-your-site.md
+      - 发布你的站点: publishing-your-site.md
+      - 自定义: customization.md
+      - 浏览器支持: browser-support.md
+      - 哲学: philosophy.md
+      - 选择: alternatives.md
+      - 许可证: license.md
+      - 更新日志:
+          - changelog/index.md
+          - 如何升级: upgrade.md
+  - 设置:
+      - 改变颜色: setup/changing-the-colors.md
+      - 改变字体: setup/changing-the-fonts.md
+      - 改变语言: setup/changing-the-language.md
+      - 更改标识和图标: setup/changing-the-logo-and-icons.md
+      - 保障资料私隐: setup/ensuring-data-privacy.md
+      - 设置导航: setup/setting-up-navigation.md
+      - 设置网站搜索: setup/setting-up-site-search.md
+      - 建立站点分析: setup/setting-up-site-analytics.md
+      - 设置社交卡片: setup/setting-up-social-cards.md
+      - 建立一个博客: setup/setting-up-a-blog.md
+      - 设置标签: setup/setting-up-tags.md
+      - 设置版本控制: setup/setting-up-versioning.md
+      - 设置标头: setup/setting-up-the-header.md
+      - 设置页脚: setup/setting-up-the-footer.md
+      - 添加git存储库: setup/adding-a-git-repository.md
+      - 添加注释系统: setup/adding-a-comment-system.md
+      - 用于离线使用的构建: setup/building-for-offline-usage.md
+      - 扩展:
+          - setup/extensions/index.md
+          - Python Markdown: setup/extensions/python-markdown.md
+          - Python Markdown 扩展: setup/extensions/python-markdown-extensions.md
+  - 参考:
+      - reference/index.md
+      - Admonitions(警告): reference/admonitions.md
+      - Annotations(注解): reference/annotations.md
+      - Buttons(按钮): reference/buttons.md
+      - Code blocks(代码块): reference/code-blocks.md
+      - Content tabs(选项卡): reference/content-tabs.md
+      - Data tables(数据表): reference/data-tables.md
+      - Diagrams(图表): reference/diagrams.md
+      - Footnotes(脚注): reference/footnotes.md
+      - Formatting(格式化): reference/formatting.md
+      - Grids(网格): reference/grids.md
+      - Icons, Emojis: reference/icons-emojis.md
+      - Images(图片): reference/images.md
+      - Lists(列表): reference/lists.md
+      - MathJax(数学): reference/mathjax.md
+      - Tooltips(工具提示): reference/tooltips.md
   - Insiders:
-    - insiders/index.md
-    - Getting started:
-      - Installation: insiders/getting-started.md
-      - Changelog: insiders/changelog.md
-  - Blog:
-    - blog/index.md
-    - 2022:
-      - blog/posts/blog-support-just-landed.md
-      - blog/posts/chinese-search-support.md
-    - 2021:
-      - blog/posts/the-past-present-and-future.md
-      - blog/posts/excluding-content-from-search.md
-      - blog/posts/search-better-faster-smaller.md
+      - insiders/index.md
+      - Getting started:
+          - Installation: insiders/getting-started.md
+          - Changelog: insiders/changelog.md
+  - 博客:
+      - blog/index.md
+      - 2022:
+          - blog/posts/blog-support-just-landed.md
+          - blog/posts/chinese-search-support.md
+      - 2021:
+          - blog/posts/the-past-present-and-future.md
+          - blog/posts/excluding-content-from-search.md
+          - blog/posts/search-better-faster-smaller.md

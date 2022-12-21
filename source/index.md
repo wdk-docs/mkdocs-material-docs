@@ -4,4 +4,4 @@ title: Material for MkDocs
 ᴴₒᴴₒᴴₒ: false
 ---
 
-Welcome to Material for MkDocs.
+欢迎来到 MkDocs 材料。

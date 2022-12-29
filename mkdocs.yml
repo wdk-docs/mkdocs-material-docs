@@ -23,10 +23,10 @@ site_name: Material for MkDocs
 site_url: https://squidfunk.github.io/mkdocs-material/
 site_author: Martin Donath
 site_description: >-
-  Create a branded static site from a set of Markdown files to host the
-  documentation of your Open Source or commercial project
+  创建一个品牌的静态站点，从一组Markdown文件来托管您的开源或商业项目的文档
 docs_dir: source
 site_dir: docs
+dev_addr: 127.0.0.1:8000
 
 # Repository
 repo_name: squidfunk/mkdocs-material
@@ -38,6 +38,7 @@ copyright: Copyright &copy; 2016 - 2022 Martin Donath
 # Configuration
 theme:
   name: material
+  language: zh
   custom_dir: material/.overrides
   features:
     # - announce.dismiss
@@ -205,7 +206,7 @@ nav:
       - Lists(列表): reference/lists.md
       - MathJax(数学): reference/mathjax.md
       - Tooltips(工具提示): reference/tooltips.md
-  - Insiders:
+  - 内部人:
       - insiders/index.md
       - Getting started:
           - Installation: insiders/getting-started.md
@@ -219,3 +220,4 @@ nav:
           - blog/posts/the-past-present-and-future.md
           - blog/posts/excluding-content-from-search.md
           - blog/posts/search-better-faster-smaller.md
+      - 外部插件: https://github.com/liang2kl/mkdocs-blogging-plugin

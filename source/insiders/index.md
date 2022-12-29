@@ -1,13 +1,12 @@
 ---
-title: Insiders
+title: 内部人
 ---
 
-# Insiders
+# 内部人
 
-Material for MkDocs follows the __sponsorware__ release strategy, which means
-that new features are first exclusively released to sponsors as part of
-[Insiders]. Read on to learn [what sponsorships achieve],
-[how to become a sponsor] to get access to Insiders, and [what's in it for you]!
+Material for MkDocs 遵循 **赞助软件** 发布策略，这意味着新功能首先作为[内部人][insiders]的一部分独家发布给赞助商。
+
+继续往下读，了解[赞助能实现什么][what sponsorships achieve]，[如何成为赞助商][how to become a sponsor]，获得内幕消息，以及[对你有什么好处][what's in it for you]!
 
 <!-- <figure class="mdx-video" markdown>
   <div class="mdx-video__inner">
@@ -21,21 +20,20 @@ This documentation is built with Insiders
   </figcaption>
 </figure> -->
 
-  [Insiders]: #what-is-insiders
-  [what sponsorships achieve]: #what-sponsorships-achieve
-  [how to become a sponsor]: #how-to-become-a-sponsor
-  [what's in it for you]: #whats-in-it-for-me
-  [Material for MkDocs]: https://squidfunk.github.io/mkdocs-material/
+[insiders]: #what-is-insiders
+[what sponsorships achieve]: #what-sponsorships-achieve
+[how to become a sponsor]: #how-to-become-a-sponsor
+[what's in it for you]: #whats-in-it-for-me
+[material for mkdocs]: https://squidfunk.github.io/mkdocs-material/
 
-## What is Insiders?
+<a id="what-is-insiders"></a>
 
-Material for MkDocs Insiders is a private fork of Material for MkDocs, hosted as
-a private GitHub repository. Almost[^1] [all new features][what's in it for you]
-are developed as part of this fork, which means that they are immediately
-available to all eligible sponsors, as they are made collaborators of this
-repository.
+## 什么是内部人？
 
-  [^1]:
+MKDOCS 内部人员的材料是 MKDOC 的私人叉子，作为私人 GitHub 存储库托管。
+几乎[^1][所有新功能][what's in it for you]都是该叉子的一部分开发的，这意味着它们立即适用于所有合格的赞助商，因为它们是该存储库的合作者。
+
+[^1]:
     In general, every new feature is first exclusively released to sponsors, but
     sometimes upstream dependencies like [Python Markdown Extensions] enhance
     existing features that must be supported by Material for MkDocs.
@@ -45,16 +43,18 @@ funding goal is hit, the features that are tied to it are merged back into
 Material for MkDocs and released for general availability, making them available
 to all users. Bugfixes are always released in tandem.
 
-Sponsorships start as low as [__$15 a month__][how to become a sponsor].[^2]
+Sponsorships start as low as [**$15 a month**][how to become a sponsor].[^2]
 
-  [^2]:
+[^2]:
     Note that $15 a month is the minimum amount to become eligible for
     Insiders. While GitHub Sponsors also allows to sponsor lower amounts or
     one-time amounts, those can't be granted access to Insiders due to
     technical reasons.
 
-  [Python Markdown Extensions]: https://facelessuser.github.io/pymdown-extensions/
-  [funding goal]: #funding
+[python markdown extensions]: https://facelessuser.github.io/pymdown-extensions/
+[funding goal]: #funding
+
+<a id="what-sponsorships-achieve"></a>
 
 ## What sponsorships achieve
 
@@ -63,7 +63,7 @@ project time – a very scarce resource – which is spent on the development of
 features, bug fixing, stability improvement, issue triage and general support.
 The biggest bottleneck in Open Source is time.[^3]
 
-  [^3]:
+[^3]:
     Making an Open Source project sustainable is exceptionally hard: maintainers
     burn out, projects are abandoned. That's not great and very unpredictable.
     The sponsorware model ensures that if you decide to use Material for MkDocs,
@@ -75,8 +75,8 @@ If you're unsure if you should sponsor this project, check out the list of
 were developed with the help of sponsorships. You're most likely using at least
 a handful of them, [thanks to our awesome sponsors]!
 
-  [completed funding goals]: #goals-completed
-  [thanks to our awesome sponsors]: #how-to-become-a-sponsor
+[completed funding goals]: #goals-completed
+[thanks to our awesome sponsors]: #how-to-become-a-sponsor
 
 <figure style="min-width:15.6rem">
   <blockquote class="twitter-tweet" data-conversation="none" data-dnt="true">
@@ -85,10 +85,12 @@ a handful of them, [thanks to our awesome sponsors]!
   <script async src="https://platform.twitter.com/widgets.js"></script>
 </figure>
 
+<a id="whats-in-it-for-me"></a>
+
 ## What's in it for me?
 
-The moment you [become a sponsor][how to become a sponsor], you'll get __immediate
-access to 19 additional features__ that you can start using right away, and
+The moment you [become a sponsor][how to become a sponsor], you'll get **immediate
+access to 19 additional features** that you can start using right away, and
 which are currently exclusively available to sponsors:
 
 <div class="mdx-columns" markdown>
@@ -117,21 +119,23 @@ which are currently exclusively available to sponsors:
 
 New features are added every other week. Be sure to come back.
 
+<a id="how-to-become-a-sponsor"></a>
+
 ## How to become a sponsor
 
 Thanks for your interest in sponsoring! In order to become an eligible sponsor
 with your GitHub account, visit [squidfunk's sponsor profile], and complete
-a sponsorship of __$15 a month or more__. You can use your individual or
+a sponsorship of **$15 a month or more**. You can use your individual or
 organization GitHub account for sponsoring.
 
-__Important__: If you're sponsoring @squidfunk through a GitHub organization,
+**Important**: If you're sponsoring @squidfunk through a GitHub organization,
 please send a short email to sponsors@squidfunk.com with the name of your
-organization and the GitHub account of the individual that should be added as a 
+organization and the GitHub account of the individual that should be added as a
 collaborator.[^4]
 
 You can cancel your sponsorship anytime.[^5]
 
-  [^4]:
+[^4]:
     It's currently not possible to grant access to each member of an
     organization, as GitHub only allows for adding users. Thus, after
     sponsoring, please send an email to sponsors@squidfunk.com, stating which
@@ -144,7 +148,7 @@ You can cancel your sponsorship anytime.[^5]
     private Insiders GitHub repository, and grant access to all members of the
     organizations.
 
-  [^5]:
+[^5]:
     If you cancel your sponsorship, GitHub schedules a cancellation request
     which will become effective at the end of the billing cycle. This means
     that even though you cancel your sponsorship, you will keep your access to
@@ -161,63 +165,63 @@ You can cancel your sponsorship anytime.[^5]
 
 **Special thanks** to our **premium sponsors**:
 
-[![Cirrus CI]](https://cirrus-ci.org/){ target=_blank title="Cirrus CI" }
-[![Basler]](https://docs.baslerweb.com/){ target=_blank title="Basler" }
-[![Hummingbot]](https://hummingbot.io/){ target=_blank title="Hummingbot" }
-[![KX]](https://kx.com/){ target=_blank title="KX Systems" }
-[![Manticore Games]](https://www.manticoregames.com/){ target=_blank title="Manticore Games" }
-[![Account technologies]](https://www.accounttechnologies.com/){ target=_blank title="Account technologies" }
-[![Prefect]](https://orion-docs.prefect.io/){ target=_blank title="Prefect" }
-[![Datadog]](https://datadoghq.com/){ target=_blank title="Datadog" }
-[![Zenoss]](https://zenoss.com/){ target=_blank title="Zenoss" }
-[![Elli]](https://www.elli.eco/en/home){ target=_blank title="Elli - A Brand of the Volkswagen Group" }
-[![RStudio]](https://solutions.rstudio.com){ target=_blank title="RStudio" }
-[![n8n]](https://n8n.io){ target=_blank title="n8n" }
-[![Dogado]](https://www.dogado.de){ target=_blank title="Dogado" }
-[![World Wide Technology]](https://wwt.com){ target=_blank title="World Wide Technology" }
-[![Coda]](https://coda.io){ target=_blank title="Coda" }
-[![Elastic]](https://elastic.co){ target=_blank title="Elastic" }
-[![ConsenSys]](https://consensys.net){ target=_blank title="ConsenSys" }
-[![Hyperledger]](https://www.hyperledger.org){ target=_blank title="Hyperledger Foundation" }
-[![IP Fabric]](https://ipfabric.io/){ target=_blank title="IP Fabric" }
-[![Apex.AI]](https://www.apex.ai/){ target=_blank title="Apex.AI" }
-[![Jitterbit]](https://jitterbit.com/){ target=_blank title="Jitterbit" }
-[![Sparkfun]](https://sparkfun.com/){ target=_blank title="Sparkfun Electronics" }
-[![Automation Technology]](https://automationtechnology.de/){ target=_blank title="Automation Technology" }
-[![Eccenca]](https://eccenca.com/){ target=_blank title="Eccenca" }
-[![SealVault]](https://sealvault.org/){ target=_blank title="SealVault" }
-[![Neptune]](https://neptune.ai/){ target=_blank title="Neptune" }
-[![Cash App]](https://cash.app/){ target=_blank title="Cash App" }
+[![Cirrus CI]](https://cirrus-ci.org/){ target=\_blank title="Cirrus CI" }
+[![Basler]](https://docs.baslerweb.com/){ target=\_blank title="Basler" }
+[![Hummingbot]](https://hummingbot.io/){ target=\_blank title="Hummingbot" }
+[![KX]](https://kx.com/){ target=\_blank title="KX Systems" }
+[![Manticore Games]](https://www.manticoregames.com/){ target=\_blank title="Manticore Games" }
+[![Account technologies]](https://www.accounttechnologies.com/){ target=\_blank title="Account technologies" }
+[![Prefect]](https://orion-docs.prefect.io/){ target=\_blank title="Prefect" }
+[![Datadog]](https://datadoghq.com/){ target=\_blank title="Datadog" }
+[![Zenoss]](https://zenoss.com/){ target=\_blank title="Zenoss" }
+[![Elli]](https://www.elli.eco/en/home){ target=\_blank title="Elli - A Brand of the Volkswagen Group" }
+[![RStudio]](https://solutions.rstudio.com){ target=\_blank title="RStudio" }
+[![n8n]](https://n8n.io){ target=\_blank title="n8n" }
+[![Dogado]](https://www.dogado.de){ target=\_blank title="Dogado" }
+[![World Wide Technology]](https://wwt.com){ target=\_blank title="World Wide Technology" }
+[![Coda]](https://coda.io){ target=\_blank title="Coda" }
+[![Elastic]](https://elastic.co){ target=\_blank title="Elastic" }
+[![ConsenSys]](https://consensys.net){ target=\_blank title="ConsenSys" }
+[![Hyperledger]](https://www.hyperledger.org){ target=\_blank title="Hyperledger Foundation" }
+[![IP Fabric]](https://ipfabric.io/){ target=\_blank title="IP Fabric" }
+[![Apex.AI]](https://www.apex.ai/){ target=\_blank title="Apex.AI" }
+[![Jitterbit]](https://jitterbit.com/){ target=\_blank title="Jitterbit" }
+[![Sparkfun]](https://sparkfun.com/){ target=\_blank title="Sparkfun Electronics" }
+[![Automation Technology]](https://automationtechnology.de/){ target=\_blank title="Automation Technology" }
+[![Eccenca]](https://eccenca.com/){ target=\_blank title="Eccenca" }
+[![SealVault]](https://sealvault.org/){ target=\_blank title="SealVault" }
+[![Neptune]](https://neptune.ai/){ target=\_blank title="Neptune" }
+[![Cash App]](https://cash.app/){ target=\_blank title="Cash App" }
 
 </div>
 
-  [Cirrus CI]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-cirrus-ci.png
-  [Basler]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-basler.png
-  [Hummingbot]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-hummingbot.png
-  [KX]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-kx.png
-  [Manticore Games]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-manticore-games.png
-  [Account technologies]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-account-technologies.png
-  [Prefect]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-prefect.png
-  [Datadog]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-datadog.png
-  [Zenoss]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-zenoss.png
-  [Elli]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-elli.png
-  [RStudio]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-rstudio.png
-  [n8n]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-n8n.png
-  [Dogado]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-dogado.png
-  [World Wide Technology]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-wwt.png
-  [Coda]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-coda.png
-  [Elastic]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-elastic.png
-  [ConsenSys]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-consensys.png
-  [Hyperledger]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-hyperledger.png
-  [IP Fabric]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-ip-fabric.png
-  [Apex.AI]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-apex-ai.png
-  [Jitterbit]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-jitterbit.png
-  [Sparkfun]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-sparkfun.png
-  [Automation Technology]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-automation-technology.png
-  [Eccenca]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-eccenca.png
-  [SealVault]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-sealvault.png
-  [Neptune]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-neptune-ai.png
-  [Cash App]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-cashapp.png
+[cirrus ci]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-cirrus-ci.png
+[basler]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-basler.png
+[hummingbot]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-hummingbot.png
+[kx]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-kx.png
+[manticore games]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-manticore-games.png
+[account technologies]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-account-technologies.png
+[prefect]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-prefect.png
+[datadog]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-datadog.png
+[zenoss]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-zenoss.png
+[elli]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-elli.png
+[rstudio]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-rstudio.png
+[n8n]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-n8n.png
+[dogado]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-dogado.png
+[world wide technology]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-wwt.png
+[coda]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-coda.png
+[elastic]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-elastic.png
+[consensys]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-consensys.png
+[hyperledger]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-hyperledger.png
+[ip fabric]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-ip-fabric.png
+[apex.ai]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-apex-ai.png
+[jitterbit]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-jitterbit.png
+[sparkfun]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-sparkfun.png
+[automation technology]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-automation-technology.png
+[eccenca]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-eccenca.png
+[sealvault]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-sealvault.png
+[neptune]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-neptune-ai.png
+[cash app]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-cashapp.png
 
 <hr />
 
@@ -232,7 +236,7 @@ You can cancel your sponsorship anytime.[^5]
   </small>
 </div>
 
-  [squidfunk's sponsor profile]: https://github.com/sponsors/squidfunk?metadata_origin=docs
+[squidfunk's sponsor profile]: https://github.com/sponsors/squidfunk?metadata_origin=docs
 
 ## Funding <span class="mdx-sponsorship-total" data-mdx-component="sponsorship-total"></span>
 
@@ -240,7 +244,7 @@ You can cancel your sponsorship anytime.[^5]
 
 The following section lists all funding goals. Each goal contains a list of
 features prefixed with a checkmark symbol, denoting whether a feature is
-:octicons-check-circle-fill-24:{ style="color: #00e676" } already available or 
+:octicons-check-circle-fill-24:{ style="color: #00e676" } already available or
 :octicons-check-circle-fill-24:{ style="color: var(--md-default-fg-color--lightest)" } planned, but not yet implemented. When the funding goal is hit, the features
 are released for general availability.
 
@@ -253,12 +257,12 @@ are released for general availability.
 - [x] [Navigation pruning]
 - [x] [Navigation status]
 
-  [Blog plugin]: ../setup/setting-up-a-blog.md
-  [Chinese search support]: ../blog/posts/chinese-search-support.md
-  [Annotations]: ../reference/annotations.md
-  [Navigation icons]: ../reference/index.md#setting-the-page-icon
-  [Navigation pruning]: ../setup/setting-up-navigation.md#navigation-pruning
-  [Navigation status]: ../reference/index.md#setting-the-page-status
+  [blog plugin]: ../setup/setting-up-a-blog.md
+  [chinese search support]: ../blog/posts/chinese-search-support.md
+  [annotations]: ../reference/annotations.md
+  [navigation icons]: ../reference/index.md#setting-the-page-icon
+  [navigation pruning]: ../setup/setting-up-navigation.md#navigation-pruning
+  [navigation status]: ../reference/index.md#setting-the-page-status
 
 #### $ 14,000 – Goat's Horn
 
@@ -269,12 +273,12 @@ are released for general availability.
 - [x] [Automatic light / dark mode]
 - [x] [Document contributors]
 
-  [Privacy plugin]: ../setup/ensuring-data-privacy.md
-  [Card grids]: ../reference/grids.md
-  [Tooltips]: ../reference/tooltips.md
-  [Content tabs: anchor links]: ../reference/content-tabs.md#anchor-links
-  [Automatic light / dark mode]: ../setup/changing-the-colors.md#automatic-light-dark-mode
-  [Document contributors]: ../setup/adding-a-git-repository.md#document-contributors
+  [privacy plugin]: ../setup/ensuring-data-privacy.md
+  [card grids]: ../reference/grids.md
+  [tooltips]: ../reference/tooltips.md
+  [content tabs: anchor links]: ../reference/content-tabs.md#anchor-links
+  [automatic light / dark mode]: ../setup/changing-the-colors.md#automatic-light-dark-mode
+  [document contributors]: ../setup/adding-a-git-repository.md#document-contributors
 
 #### $ 16,000 – Chipotle
 
@@ -285,13 +289,13 @@ are released for general availability.
 - [x] [Tags plugin: allow list] and [custom sorting]
 - [x] [Navigation subtitles]
 
-  [Meta plugin]: ../reference/index.md#built-in-meta-plugin
-  [Blog plugin: related links]: ../setup/setting-up-a-blog.md#adding-related-links
-  [Blog plugin: custom index pages]: ../setup/setting-up-a-blog.md#custom-index-pages
-  [Tags plugin: additional indexes]: ../setup/setting-up-tags.md#+tags.tags_extra_files
-  [Tags plugin: allow list]: ../setup/setting-up-tags.md#+tags.tags_allowed
+  [meta plugin]: ../reference/index.md#built-in-meta-plugin
+  [blog plugin: related links]: ../setup/setting-up-a-blog.md#adding-related-links
+  [blog plugin: custom index pages]: ../setup/setting-up-a-blog.md#custom-index-pages
+  [tags plugin: additional indexes]: ../setup/setting-up-tags.md#+tags.tags_extra_files
+  [tags plugin: allow list]: ../setup/setting-up-tags.md#+tags.tags_allowed
   [custom sorting]: ../setup/setting-up-tags.md#+tags.tags_compare
-  [Navigation subtitles]: ../reference/index.md#setting-the-page-subtitle
+  [navigation subtitles]: ../reference/index.md#setting-the-page-subtitle
 
 #### $ 20,000 – Jalapeño
 
@@ -299,8 +303,8 @@ are released for general availability.
 - [ ] [Instant previews]
 - ... more to be announced
 
-  [Privacy plugin: external links]: ../setup/ensuring-data-privacy.md#+privacy.external_links
-  [Instant previews]: https://twitter.com/squidfunk/status/1466794654213492743
+  [privacy plugin: external links]: ../setup/ensuring-data-privacy.md#+privacy.external_links
+  [instant previews]: https://twitter.com/squidfunk/status/1466794654213492743
 
 ### Goals completed
 
@@ -317,12 +321,12 @@ can be used by all users.
 - [x] [Excluding content from search]
 - [x] [Offline plugin]
 
-  [Brand new search plugin]: ../blog/posts/search-better-faster-smaller.md
-  [Rich search previews]: ../blog/posts/search-better-faster-smaller.md#rich-search-previews
-  [Tokenizer with lookahead]: ../blog/posts/search-better-faster-smaller.md#tokenizer-lookahead
-  [Advanced search highlighting]: ../blog/posts/search-better-faster-smaller.md#accurate-highlighting
-  [Excluding content from search]: ../setup/setting-up-site-search.md#search-exclusion
-  [Offline plugin]: ../setup/building-for-offline-usage.md
+  [brand new search plugin]: ../blog/posts/search-better-faster-smaller.md
+  [rich search previews]: ../blog/posts/search-better-faster-smaller.md#rich-search-previews
+  [tokenizer with lookahead]: ../blog/posts/search-better-faster-smaller.md#tokenizer-lookahead
+  [advanced search highlighting]: ../blog/posts/search-better-faster-smaller.md#accurate-highlighting
+  [excluding content from search]: ../setup/setting-up-site-search.md#search-exclusion
+  [offline plugin]: ../setup/building-for-offline-usage.md
 
 #### $ 8,000 – Scotch Bonnet
 
@@ -333,11 +337,11 @@ can be used by all users.
 - [x] [Table of contents anchor following]
 - [x] Sidebars automatically scroll to active item
 
-  [Social cards]: ../setup/setting-up-social-cards.md
-  [Code annotations: anchor links]: ../reference/code-blocks.md#anchor-links
-  [Code annotations: strip comments]: ../reference/code-blocks.md#stripping-comments
-  [Tag icons]: ../setup/setting-up-tags.md#tag-icons-and-identifiers
-  [Table of contents anchor following]: ../setup/setting-up-navigation.md#anchor-following
+  [social cards]: ../setup/setting-up-social-cards.md
+  [code annotations: anchor links]: ../reference/code-blocks.md#anchor-links
+  [code annotations: strip comments]: ../reference/code-blocks.md#stripping-comments
+  [tag icons]: ../setup/setting-up-tags.md#tag-icons-and-identifiers
+  [table of contents anchor following]: ../setup/setting-up-navigation.md#anchor-following
 
 #### $ 7,000 – Royal Gold
 
@@ -345,9 +349,9 @@ can be used by all users.
 - [x] [Was this page helpful?]
 - [x] [Dismissable announcement bar]
 
-  [Cookie consent]: ../setup/ensuring-data-privacy.md#cookie-consent
-  [Was this page helpful?]: ../setup/setting-up-site-analytics.md#was-this-page-helpful
-  [Dismissable announcement bar]: ../setup/setting-up-the-header.md#mark-as-read
+  [cookie consent]: ../setup/ensuring-data-privacy.md#cookie-consent
+  [was this page helpful?]: ../setup/setting-up-site-analytics.md#was-this-page-helpful
+  [dismissable announcement bar]: ../setup/setting-up-the-header.md#mark-as-read
 
 #### $ 6,000 – Trinidad Scorpion
 
@@ -355,9 +359,9 @@ can be used by all users.
 - [x] [Custom admonition icons]
 - [x] [Linking content tabs]
 
-  [Boosting pages in search]: ../setup/setting-up-site-search.md#search-boosting
-  [Custom admonition icons]: ../reference/admonitions.md#admonition-icons
-  [Linking content tabs]: ../reference/content-tabs.md#linked-content-tabs
+  [boosting pages in search]: ../setup/setting-up-site-search.md#search-boosting
+  [custom admonition icons]: ../reference/admonitions.md#admonition-icons
+  [linking content tabs]: ../reference/content-tabs.md#linked-content-tabs
 
 #### $ 5,000 – Aji Panca
 
@@ -365,8 +369,8 @@ can be used by all users.
 - [x] Stay on page when switching versions
 - [x] [Tags with search integration]
 
-  [Mermaid.js integration]: ../reference/diagrams.md
-  [Tags with search integration]: ../setup/setting-up-tags.md
+  [mermaid.js integration]: ../reference/diagrams.md
+  [tags with search integration]: ../setup/setting-up-tags.md
 
 #### $ 4,000 – Ghost Pepper
 
@@ -374,9 +378,9 @@ can be used by all users.
 - [x] [Code annotations]
 - [x] [Version warning]
 
-  [Anchor tracking]: ../setup/setting-up-navigation.md#anchor-tracking
-  [Code annotations]: ../reference/code-blocks.md#adding-annotations
-  [Version warning]: ../setup/setting-up-versioning.md#version-warning
+  [anchor tracking]: ../setup/setting-up-navigation.md#anchor-tracking
+  [code annotations]: ../reference/code-blocks.md#adding-annotations
+  [version warning]: ../setup/setting-up-versioning.md#version-warning
 
 #### $ 3,000 – Caribbean Red
 
@@ -384,9 +388,9 @@ can be used by all users.
 - [x] [Section index pages]
 - [x] [Remove generator notice]
 
-  [Sticky navigation tabs]: ../setup/setting-up-navigation.md#sticky-navigation-tabs
-  [Section index pages]: ../setup/setting-up-navigation.md#section-index-pages
-  [Remove generator notice]: ../setup/setting-up-the-footer.md#generator-notice
+  [sticky navigation tabs]: ../setup/setting-up-navigation.md#sticky-navigation-tabs
+  [section index pages]: ../setup/setting-up-navigation.md#section-index-pages
+  [remove generator notice]: ../setup/setting-up-the-footer.md#generator-notice
 
 #### $ 2,500 – Biquinho Vermelho
 
@@ -394,9 +398,9 @@ can be used by all users.
 - [x] [Search highlighting]
 - [x] [Search sharing]
 
-  [Search suggestions]: ../setup/setting-up-site-search.md#search-suggestions
-  [Search highlighting]: ../setup/setting-up-site-search.md#search-highlighting
-  [Search sharing]: ../setup/setting-up-site-search.md#search-sharing
+  [search suggestions]: ../setup/setting-up-site-search.md#search-suggestions
+  [search highlighting]: ../setup/setting-up-site-search.md#search-highlighting
+  [search sharing]: ../setup/setting-up-site-search.md#search-sharing
 
 #### $ 2,000 – Black Pearl
 
@@ -404,8 +408,8 @@ can be used by all users.
 - [x] [Color palette toggle]
 - [x] [Back-to-top button]
 
-  [Color palette toggle]: ../setup/changing-the-colors.md#color-palette-toggle
-  [Back-to-top button]: ../setup/setting-up-navigation.md#back-to-top-button
+  [color palette toggle]: ../setup/changing-the-colors.md#color-palette-toggle
+  [back-to-top button]: ../setup/setting-up-navigation.md#back-to-top-button
 
 #### $ 1,500 – Bhut Jolokia
 
@@ -413,9 +417,9 @@ can be used by all users.
 - [x] [Site language selection]
 - [x] [Versioning]
 
-  [Admonition inline blocks]: ../reference/admonitions.md#inline-blocks
-  [Site language selection]: ../setup/changing-the-language.md#site-language-selector
-  [Versioning]: ../setup/setting-up-versioning.md#versioning
+  [admonition inline blocks]: ../reference/admonitions.md#inline-blocks
+  [site language selection]: ../setup/changing-the-language.md#site-language-selector
+  [versioning]: ../setup/setting-up-versioning.md#versioning
 
 #### $ 1,000 – Prairie Fire
 
@@ -425,11 +429,11 @@ can be used by all users.
 - [x] [Table of contents in navigation]
 - [x] [Header hides on scroll]
 
-  [Navigation sections]: ../setup/setting-up-navigation.md#navigation-sections
-  [Navigation expansion]: ../setup/setting-up-navigation.md#navigation-expansion
-  [Hiding the sidebars]: ../setup/setting-up-navigation.md#hiding-the-sidebars
-  [Table of contents in navigation]: ../setup/setting-up-navigation.md#navigation-integration
-  [Header hides on scroll]: ../setup/setting-up-the-header.md#automatic-hiding
+  [navigation sections]: ../setup/setting-up-navigation.md#navigation-sections
+  [navigation expansion]: ../setup/setting-up-navigation.md#navigation-expansion
+  [hiding the sidebars]: ../setup/setting-up-navigation.md#hiding-the-sidebars
+  [table of contents in navigation]: ../setup/setting-up-navigation.md#navigation-integration
+  [header hides on scroll]: ../setup/setting-up-the-header.md#automatic-hiding
 
 #### $ 500 – Madame Jeanette
 
@@ -466,8 +470,8 @@ exclusive to Insiders, it's recommended to split configuration into a base
 
 See the [getting started guide] for more information.
 
-  [configuration inheritance]: https://www.mkdocs.org/user-guide/configuration/#configuration-inheritance
-  [getting started guide]: getting-started.md#caveats
+[configuration inheritance]: https://www.mkdocs.org/user-guide/configuration/#configuration-inheritance
+[getting started guide]: getting-started.md#caveats
 
 ### Payment
 
@@ -481,7 +485,7 @@ you only use for sponsoring (some sponsors already do that).
 If you have any problems or further questions, please reach out to
 sponsors@squidfunk.com.
 
-  [billing cycle]: https://docs.github.com/en/github/setting-up-and-managing-billing-and-payments-on-github/changing-the-duration-of-your-billing-cycle
+[billing cycle]: https://docs.github.com/en/github/setting-up-and-managing-billing-and-payments-on-github/changing-the-duration-of-your-billing-cycle
 
 ### Terms
 
@@ -491,17 +495,17 @@ Material for MkDocs?_
 Yes. Whether you're an individual or a company, you may use _Material for MkDocs
 Insiders_ precisely under the same terms as Material for MkDocs, which are given
 by the [MIT license]. However, we kindly ask you to respect our
-__fair use policy__:
+**fair use policy**:
 
-- Please __don't distribute the source code__ of Insiders. You may freely use
+- Please **don't distribute the source code** of Insiders. You may freely use
   it for public, private or commercial projects, privately fork or mirror it,
-  but please don't make the source code public, as it would counteract the 
+  but please don't make the source code public, as it would counteract the
   sponsorware strategy.
 
 - If you cancel your subscription, you're automatically removed as a
   collaborator and will miss out on all future updates of Insiders. However, you
-  may __use the latest version__ that's available to you __as long as you like__.
+  may **use the latest version** that's available to you **as long as you like**.
   Just remember that [GitHub deletes private forks].
 
-  [MIT license]: ../license.md
-  [GitHub deletes private forks]: https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/removing-a-collaborator-from-a-personal-repository
+  [mit license]: ../license.md
+  [github deletes private forks]: https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/removing-a-collaborator-from-a-personal-repository
